@@ -1,0 +1,12 @@
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Kuponas/Coupon.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/App.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Prekes/Preke.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Services/PrekeServices.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Kuponas/CreateCouponCommand.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/AppConfig.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Prekes/CreatePrekeCommand.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Controllers/PrekesController.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Repositories/CouponRepository.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Controllers/CouponController.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Services/CouponServices.java
+/home/justas/Desktop/Kuponu sistema/RESTserver/src/main/java/lt/it/akademija/Repositories/PrekesRepository.java
