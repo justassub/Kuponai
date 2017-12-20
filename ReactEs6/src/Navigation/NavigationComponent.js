@@ -13,6 +13,7 @@ export var NavigationComponent=()=>{
         <ul>
         <li><NavLink to="/coupons">Home</NavLink></li>
         <li><NavLink to="/addcoupon">Add Coupon</NavLink></li>
+        <li><NavLink to="/prekes">All PRekes</NavLink></li>
        
         </ul>
          

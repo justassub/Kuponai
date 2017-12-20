@@ -11,7 +11,11 @@ export class CouponListContainer extends React.Component {
     componentWillMount = () => {
         axios.get('http://localhost:8082/etalonas-app/coupons')
             .then((response) => {
+                if (response.data.length<2){
+                    alert("Please Add more coupons")
+                }else{
                 this.setState({ coupons: response.data });
+                }
             })
             .catch((error) => {
                 console.log(error);

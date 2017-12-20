@@ -12,7 +12,7 @@ const colorStyle={
 
 export class CouponComponent extends React.Component  {    
     removeCoupon=()=> {
-        axios.delete('http://localhost:8081/etalonas-app/delete'+this.props.id)                
+        axios.delete('http://localhost:8082/etalonas-app/coupons/delete/'+this.props.id)                
     }
     
    
@@ -28,10 +28,10 @@ render(){
                     
                    
                        
-                    <NavLink to={"/coupon/"+this.props.id}>  
+                    <NavLink to={"/coupons/"+this.props.id}>  
                     <button  className="btn btn-default" onClick={this.getTrain}  >
                     Coupon INFO</button></NavLink>
-                    <NavLink to={"/coupon/edit/"+this.props.id}>  
+                    <NavLink to={"/coupons/edit/"+this.props.id}>  
                     <button  className="btn btn-default" onClick={this.getTrain}  >
                    EDIT coupon</button></NavLink>  
                    <NavLink to ={"/prekes/add/"+this.props.id}>
