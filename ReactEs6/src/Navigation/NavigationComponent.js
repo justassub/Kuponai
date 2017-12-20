@@ -12,7 +12,7 @@ export var NavigationComponent=()=>{
         <div className="container">
         <ul>
         <li><NavLink to="/coupons">Home</NavLink></li>
-        <li><NavLink to="/addcoupon">Add Train</NavLink></li>
+        <li><NavLink to="/addcoupon">Add Coupon</NavLink></li>
        
         </ul>
          

@@ -10,3 +10,4 @@ lt/it/akademija/AppConfig.class
 lt/it/akademija/Services/CouponServices.class
 lt/it/akademija/Services/PrekeServices.class
 lt/it/akademija/Repositories/CouponRepository.class
+lt/it/akademija/PostProcessor.class

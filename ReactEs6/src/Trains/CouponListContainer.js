@@ -9,7 +9,7 @@ export class CouponListContainer extends React.Component {
         this.state = { coupons: []};
     }
     componentWillMount = () => {
-        axios.get('http://localhost:8081/justas-app/coupons')
+        axios.get('http://localhost:8082/etalonas-app/coupons')
             .then((response) => {
                 this.setState({ coupons: response.data });
             })

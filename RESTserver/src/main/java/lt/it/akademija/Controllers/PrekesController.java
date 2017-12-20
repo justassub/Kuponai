@@ -41,6 +41,8 @@ public class PrekesController {
     public  void deletePreke(@PathVariable long id){
         prekeServices.removePreke(id);
     }
+
+
     @RequestMapping(path = "/add/{id}",method = RequestMethod.POST)
     @ApiOperation(value = "Create preke for specific coupon")
     public  void createPreke(@PathVariable Long id, @RequestBody CreatePrekeCommand cmc){

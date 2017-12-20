@@ -11,8 +11,8 @@ const colorStyle={
 
 
 export class CouponComponent extends React.Component  {    
-    removeProduct=()=> {
-        axios.delete('http://localhost:8081/justas-app/delete'+this.props.id)                
+    removeCoupon=()=> {
+        axios.delete('http://localhost:8081/etalonas-app/delete'+this.props.id)                
     }
     
    
@@ -35,8 +35,8 @@ render(){
                     <button  className="btn btn-default" onClick={this.getTrain}  >
                    EDIT coupon</button></NavLink>  
                    <NavLink to ={"/prekes/add/"+this.props.id}>
-                   <button> PRIDETI PREKE</button> </NavLink>             
-                   <button style={colorStyle} className="btn btn-default" onClick={this.remo}  >
+                   <button className="btn btn-default"> PRIDETI PREKE</button> </NavLink>             
+                   <button style={colorStyle} className="btn btn-default" onClick={this.removeCoupon}  >
                    REMOVE Coupon</button>
                 </div>
             </div>
